@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function heroBanner() {
   return (
-    <div className='flex justify-center mt-48 mb-150'>
+    <div className='flex justify-center mt-44 mb-150'>
       <div>
         <h1 className='text-6xl font-semibold'>
           Dévelopeur front-end <br/> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">React</span> <span className="wave mt-2">👋🏻</span>

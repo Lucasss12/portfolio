@@ -1,21 +1,68 @@
 [
     {
       "id": 1,
-      "title": "Projet 1",
-      "description": "Description du projet 1",
-      "url": "https://example.com/project1"
+      "title": "Syneido - SUZUKI",
+      "description": "Mise en place d'un plan de marquage Google Tag Manager et correction d'éléments frond-end sur le site mySUZUKI.",
+      "media": "/projets/mySUZUKI.png",
+      "technos": [
+        "React.js",
+        "Google Tag Manager"
+      ],
+      "status": "freelance",
+      "github": "privé",
+      "link": "https://www.mysuzuki.fr/"
     },
     {
       "id": 2,
-      "title": "Projet 2",
-      "description": "Description du projet 2",
-      "url": "https://example.com/project2"
+      "title": "Pokedex",
+      "description": "Challenge personnel création d'un site type 'Pokedex', réalisé en 2 jours.",
+      "media": "/projets/pokedex.png",
+      "technos": [
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "status": "personnel",
+      "github": "https://github.com/Lucasss12/Pokedex",
+      "link": "https://pokedex-online-next.vercel.app/"
     },
     {
       "id": 3,
-      "title": "Projet 3",
-      "description": "Description du projet 3",
-      "url": "https://example.com/project3"
+      "title": "LessonSharing",
+      "description": "Formation d'élèves en bac+3 au base de React avec différentes approches comme des cours, des travaux dirigés ainsi que des travaux pratiques.",
+      "media": "/projets/LessonSharing.png",
+      "technos": [
+        "Node.js",
+        "React.js"
+      ],
+      "status": "freelance",
+      "github": "privé",
+      "link": "https://www.lessonsharing.fr/"
+    },
+    {
+      "id": 4,
+      "title": "The Packing Hroject",
+      "description": "Création d'un site web décentralisé de vente de NFT sur la blockchain Polygon, en équipe avec 3 autres développeurs.",
+      "media": "/projets/TPH.png",
+      "technos": [
+        "React.js",
+        "Web3"
+      ],
+      "status": "freelance",
+      "github": "https://github.com/DevGiack/The-Packing-Hroject",
+      "link": "https://the-packing-hroject-8rmg.vercel.app/"
+    },
+    {
+      "id": 5,
+      "title": "Truffières Saint Martin",
+      "description": "Création d'un site web e-commerce de vente de truffes, en équipe avec 3 autres développeurs.",
+      "media": "/projets/TSM.png",
+      "technos": [
+        "Ruby",
+        "Ruby on Rails"
+      ],
+      "status": "freelance",
+      "github": "privé",
+      "link": "private"
     }
   ]
   
