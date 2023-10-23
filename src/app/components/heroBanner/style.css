@@ -16,3 +16,7 @@
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
+
+  .mb-150 {
+    margin-bottom: 600px;
+  }
