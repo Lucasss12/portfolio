@@ -40,13 +40,13 @@ export default function Projets() {
   return (
       <div id='projets' className='flex flex-col items-center p-6'>
         <div>
-          <h1 className="text-6xl font-semibold">Mes <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500'>Projets</span></h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">Mes <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500'>Projets</span></h1>
         </div>
         
         {projets.map((projet, index) => (
-        <div key={index} className='bg-white mt-16 flex p-6 rounded-lg shadow-lg items-center'>
-          <div onMouseMove={(e) => handleMouseMove(index, e)} onMouseOut={resetRotation} style={{ transform: `perspective(1000px) rotateY(${rotationAngles[index].x}deg) rotateX(${rotationAngles[index].y}deg)`, }} className={isMouseAway ? "" : "image-3d"}>
-            <Link href={projet.link}><Image src={projet.media} width={530} height={300} alt="avatar" style={{ width: '530px', height: '330px' }} className='rounded-lg shadow-lg'/> </Link>
+        <div key={index} className='bg-white mt-16 flex lg:flex-row flex-col  p-6 rounded-lg shadow-lg items-center'>
+          <div onMouseMove={(e) => handleMouseMove(index, e)} onMouseOut={resetRotation} style={{ transform: `perspective(1000px) rotateY(${rotationAngles[index].x}deg) rotateX(${rotationAngles[index].y}deg)`, }}  className={`mb-10 lg:mb-0 ${isMouseAway ? "" : "image-3d"}`}>
+            <Link href={projet.link}><Image src={projet.media} width={530} height={300} alt="avatar" style={{ width: '100%', maxWidth: '530px', height: 'auto'}} className='rounded-lg shadow-lg'/> </Link>
           </div>
 
           <div className='px-4 w-96 flex flex-col items-center justify-center'>
