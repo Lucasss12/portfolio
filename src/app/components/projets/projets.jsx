@@ -44,7 +44,7 @@ export default function Projets() {
         </div>
         
         {projets.map((projet, index) => (
-        <div key={index} className='bg-white mt-16 flex lg:flex-row flex-col  p-3 sm:p-6 rounded-lg shadow-lg items-center'>
+        <div key={index} className='bg-white mt-16 flex lg:flex-row flex-col py-3 sm:p-6 rounded-lg shadow-lg items-center'>
           <div onMouseMove={(e) => handleMouseMove(index, e)} onMouseOut={resetRotation} style={{ transform: `perspective(1000px) rotateY(${rotationAngles[index].x}deg) rotateX(${rotationAngles[index].y}deg)`, }}  className={`mb-10 lg:mb-0 ${isMouseAway ? "" : "image-3d"}`}>
             <Link href={projet.link}><Image src={projet.media} width={530} height={300} alt="avatar" style={{ width: '100%', maxWidth: '530px', height: 'auto'}} className='rounded-lg shadow-lg'/> </Link>
           </div>
