@@ -8,7 +8,7 @@ import Image from 'next/image'
 export default function heroBanner() {
   return (
     <>
-    <div className='flex sm:flex-row flex-col-reverse items-center sm:items-start justify-center mt-9 md:mx-6 sm:mt-28 md:mt-44 lg:mt-28 xl:mt-28 2xl:mt-44'>
+    <div className='flex sm:flex-row flex-col-reverse items-center sm:items-start justify-center mt-9 md:mx-6 sm:mt-28 md:mt-28 lg:mt-28 xl:mt-28 2xl:mt-44'>
       <div className='sm:text-center md:text-left text-center'>
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold'>
           Dévelopeur front-end <br/> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">React</span> <span className="wave mt-2">👋🏻</span>

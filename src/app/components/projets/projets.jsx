@@ -36,7 +36,6 @@ export default function Projets() {
     }
   };
 
-
   return (
       <div id='projets' className='flex flex-col items-center p-6'>
         <div>

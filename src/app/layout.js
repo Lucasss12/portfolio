@@ -1,6 +1,7 @@
 import { Rubik } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/navbar/navbar'
+import { Analytics } from '@vercel/analytics/react';
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <div>
           {children}
+          <Analytics />
         </div>
       </body>
     </html>
