@@ -13,19 +13,6 @@
       "link": "https://www.mysuzuki.fr/"
     },
     {
-      "id": 2,
-      "title": "Pokedex",
-      "description": "Challenge personnel création d'un site type 'Pokedex', réalisé en 2 jours.",
-      "media": "/projets/pokedex.png",
-      "technos": [
-        "Next.js",
-        "Tailwind CSS"
-      ],
-      "status": "personnel",
-      "github": "https://github.com/Lucasss12/Pokedex",
-      "link": "https://pokedex-online-next.vercel.app/"
-    },
-    {
       "id": 3,
       "title": "LessonSharing",
       "description": "Formation d'élèves en bac+3 au base de React avec différentes approches comme des cours, des travaux dirigés ainsi que des travaux pratiques.",
