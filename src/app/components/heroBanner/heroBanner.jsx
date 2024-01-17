@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 import Link from 'next/link'
-import avatar from '../../image/avatar.png'
+import avatar from '../../../../public/image/avatar.png'
 import Image from 'next/image'
 
 
