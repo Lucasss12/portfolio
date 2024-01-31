@@ -33,7 +33,7 @@ export default function heroBanner() {
         <Image className='rounded-full mb-6 lg:ml-10 h-28 w-28  md:h-52 md:w-52 xl:h-72 xl:w-72' src={avatar}  alt="avatar"/>
       </div>
     </div>   
-    <div className='flex justify-center mt-10 lg:mt-35 mb-80 sm:mb-96'>
+    <div className='flex justify-center mt-10 lg:mt-35 mb-550'>
       <div className="chevron"></div>
       <div className="chevron"></div>
       <div className="chevron"></div>

@@ -74,3 +74,33 @@
   transform: translateY($base * 8) scale(0.5);
  }
 }
+
+@media (max-width: 640px) { 
+  .mb-550{
+    margin-bottom: 325px;
+  }
+ }
+
+@media (min-width: 640px) { 
+  .mb-550{
+    margin-bottom: 615px;
+  }
+ }
+
+@media (min-width: 768px) { 
+  .mb-550{
+    margin-bottom: 530px;
+  }
+ }
+
+@media (min-width: 1024px) { 
+  .mb-550{
+    margin-bottom: 470px;
+  }
+ }
+
+@media (min-width: 1280px) { 
+  .mb-550{
+    margin-bottom: 600px;
+  }
+ }
